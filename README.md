@@ -38,6 +38,25 @@ this version of fixes worked fine but still it got some challanges and i still w
  #
      sudo apt-get install npm nodejs
      
+     apt-get install aapt android-framework-res -y
+     
+ You need java jdk 8 `jdk-8u351-linux-x64.tar.gz` it depend with your version. Download it and configure it ....just follow me 
+ 
+ visit and download it from here `https://www.oracle.com/java/technologies/downloads/` register free account and download
+ After successfull downloaded, Run the following command to install it
+#
+    sudo tar -xf jdk-8u351-linux-x64.tar.gz -C /opt
+    
+    cd /opt
+    
+    cd jdk1.8.0_351/bin
+    
+    sudo update-alternatives --install "/usr/bin/java" "java" "/opt/jdk1.8.0_351/bin/java" 1
+    
+    sudo update-alternatives --config java
+    
+ choose java 8 from the list and u can check if it is installed by this command `java --version`
+  
  Download source codes here https://www.mediafire.com/file/jih34e82swufxfj/AhMyth-FIXED_AuxGrep.tar.gz/file
      
  inside of Ahmyth-Server run the following commands
