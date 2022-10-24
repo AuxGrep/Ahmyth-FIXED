@@ -32,7 +32,7 @@ this version of fixes worked fine but still it got some challanges and i still w
   
  # INSTALLATION | MANUALY
  
- TO build this rat , you linux sys needs to have some packages installed
+ TO build this rat , your linux sys needs to have some packages installed
  #
      sudo apt-get update upgrade
  #
